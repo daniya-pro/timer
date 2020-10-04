@@ -1,0 +1,76 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./semantic/Semantic-UI-CSS-master/semantic.min.css">
+  <link rel="shortcut icon" href="./assets/images/timers.png" type="image/x-icon">
+  <title>timer</title>
+
+</head>
+
+<body>
+  <div class="ui center ">
+
+
+
+
+    <div class="ui cards centered mainCard ">
+      <div class="card">
+        <div class="content">
+          <div class="header">TIMER</div>
+
+          <h1 style="font-size: 90px;" class="monospace" id="SecOMin">0</h1>
+          <h1 class="monospace" id="h12" style="display:none;font-size: 90px;">0</h1>
+          <div class="description">
+
+            <div class="centered">
+              <div class="ui input">
+                <!-- input for min or secs -->
+                <input type="text" id="IFMOS" placeholder="write time here">
+              </div>
+
+              <select id="drop" class="ui mt-13 dropdown">
+                <option value="sec">sec</option>
+                <option value="min">min</option>
+              </select>
+              <!--
+         //f-f-ss = font-family:sans-serif 
+        f-s-s=font-size: small
+      
+      -->
+      <!-- dn-o-db = display none 0r display block -->
+              <p class="f-f-ss f-s-s redC" id="dn-o-db"> something went wrong </p>
+            </div>
+            <button class="ui secondary button mt-5px" id="disable">
+              Okay
+            </button>
+            <button class="ui secondary button" id="reset">Reset</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <br>
+
+
+    </div>
+
+
+    <script src="./semantic/jquery-3.2.1.min.js"></script>
+    <script src="./semantic/Semantic-UI-CSS-master/semantic.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+
+</html>

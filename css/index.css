@@ -1,0 +1,49 @@
+body{
+    background-color: gainsboro !important;
+}
+.center{text-align: center !important;
+    text-align: -webkit-center !important;
+
+} 
+#dn-o-db,#d-none{
+
+display: none;
+
+
+}
+.not-allowed{cursor :not-allowed !important;}
+#disable{
+    pointer-events: all !important;    
+}
+.mt-5px{margin-top: 5px;}
+.borb-b{
+
+border-bottom:3px solid gainsboro !important;
+box-shadow: 0 0 black !important;
+
+}
+button:disabled {
+    cursor: not-allowed !important;
+    pointer-events: all !important;
+  }
+.redC{
+    color: red;
+}
+.monospace{
+font-family: monospace !important;
+
+
+}
+.f-f-ss{ font-family:sans-serif }
+.f-s-s{font-size: small
+}
+.ui.mt-13.dropdown.selection{    width: 70px !important;
+    min-width: 0px;}
+
+
+
+
+    .mainCard{
+      padding: 15px;
+        margin-top:200px  !important;
+    }
