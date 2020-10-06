@@ -11,6 +11,10 @@ display: none;
 
 
 }
+.card{
+    
+    word-wrap: break-word !important;
+}
 .not-allowed{cursor :not-allowed !important;}
 #disable{
     pointer-events: all !important;    
